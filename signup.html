@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggies / login</title>
+    <!-- <link rel="stylesheet" href="back.css"> -->
+</head>
+<style>
+    body{
+        text-transform: capitalize;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .inputs{
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    input{
+        outline: none;
+        margin-bottom: 10px;
+    }
+    #btn{
+        color: lightblue;
+    }
+</style>
+<body>
+    <div class="signup-box">
+        <table>
+            <center>
+                <tr align="center">
+                    <td colspan="2">
+                        Login
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Email">email :</label>
+                    </td>
+                    <td>
+                        <input type="email" name="name" id="Email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">password : </label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <button id="btn">Login</button>
+                    </td>
+                </tr>
+            </center>
+        </table>
+    </div>
+</body>
+</html>
